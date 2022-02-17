@@ -20,4 +20,5 @@ fun main() {
     })
     println(sum(1,10, square))
     println(sum(1,10, cube))
+
 }
