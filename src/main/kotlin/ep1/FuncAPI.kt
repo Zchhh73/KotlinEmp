@@ -5,7 +5,7 @@ fun main() {
     // filter: 过滤器
     listOf(4, 6, 15, 21).filter { it > 10 }.forEach(::println)
     // map:
-    listOf("java", "kotlin", "scala", "go").map { it.uppercase() }.forEach(::println)
+    listOf("java", "kotlin", "scala", "go").map { it.toUpperCase() }.forEach(::println)
     // flatMap:遍历所有元素，为每个元素创建集合，最后把所有集合放到一个集合中
     val newList = listOf(5, 8, 11, 14).flatMap { listOf(it, it + 1, it + 2) }
     println(newList)
